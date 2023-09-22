@@ -4,7 +4,7 @@ Set ws = CreateObject("WScript.shell")
 
 ' 버전 표시
 ' version info
-version = "1.9"
+version = "2.0"
 copyright = "Copyleft ⓒ 2023"
 
 ' 아이들 타임(스크롤락 버튼을 두번 누른 뒤 다시 누를때까지 대기하는 시간. 초 단위로 작성)
@@ -56,7 +56,9 @@ running = "<button name='Switch' onClick=document.all('SwitchVal').value='stop' 
 	& "<input name='CloseVal' value='true' type='hidden' id='CloseVal' disabled>" _
 	& "</br><input style=""font-family:'Malgun Gothic', Serif; width:170px"" id='Copyright' name='Copyright' value='Ver" _
 	& version _
-	& " Copyleft ⓒ 2023' readonly disabled></style>"
+	& " " _
+	& copyright _
+	& "' readonly disabled></style>"
 	
 ceased = "<button name='Switch' onClick = document.all('SwitchVal').value='start' style=""height:100px;width:150px"" id='Switch'>중단됨</button>" _
 	& "</br><button name='Close' onClick = document.all('CloseVal').value='false' style=""height:50px;width:150px"">응용프로그램 종료</button>" _
@@ -64,7 +66,9 @@ ceased = "<button name='Switch' onClick = document.all('SwitchVal').value='start
 	& "<input name='CloseVal' value='true' type='hidden' id='CloseVal' disabled>" _
 	& "</br><input style=""font-family:'Malgun Gothic', Serif; width:170px"" id='Copyright' name='Copyright' value='Ver" _
 	& version _
-	& " Copyleft ⓒ 2023' readonly disabled></style>"
+	& " " _
+	& copyright _
+	& "' readonly disabled></style>"
 	
 ' 창 속성
 ' window title and inital status
