@@ -58,7 +58,7 @@ running = "<button name='Switch' onClick=document.all('SwitchVal').value='stop' 
 	& version _
 	& " " _
 	& copyright _
-	& "' readonly disabled></style>"
+	& "' readonly disabled></input>"
 	
 ceased = "<button name='Switch' onClick = document.all('SwitchVal').value='start' style=""height:100px;width:150px"" id='Switch'>중단됨</button>" _
 	& "</br><button name='Close' onClick = document.all('CloseVal').value='false' style=""height:50px;width:150px"">응용프로그램 종료</button>" _
@@ -68,7 +68,7 @@ ceased = "<button name='Switch' onClick = document.all('SwitchVal').value='start
 	& version _
 	& " " _
 	& copyright _
-	& "' readonly disabled></style>"
+	& "' readonly disabled></input>"
 	
 ' 창 속성
 ' window title and inital status
