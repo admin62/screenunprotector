@@ -6,4 +6,4 @@ this is a simple program that prevent your pc from switching to sleep mode.
 
 자유롭게 수정해도 됩니다.
 
-feel free to customize and distribute.
+feel free to customize and re-distribute.
